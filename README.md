@@ -34,13 +34,6 @@ This contract focuses on the sending, receiving, locking and accepting of quotes
 
 The contract does not provide a matching engine, matching of PartyA and PartyBs can be done via decentralized frontends or decentralized driver architecture, as external services, matching can easily be facilitated by providing an array of whitelisted PartyBs in the quote.
 
-
-# Setup Instructions
-To setup the testing envoirment 
-* Copy the `.env.example` file, name it `.env`, and then provide the required variables in that .env file. 
-* Then you can run static tests by using `npx hardhat test`
-* Also, there is a hardhat task for deploying the contracts. You can run it with `npx hardhat deploy:diamond`
-
 # Main Flow
 ## Deposit
 To start sending and accepting INTENTs, the user needs to deposit collateral into the SYMMIO contracts.
